@@ -19,7 +19,7 @@ class LeadType extends AbstractType
                 'label' => false,
                 'attr' => [
                     'placeholder' => 'Nom',
-                    'class' => 'w-full rounded-lg border-gray-300',
+                    'class' => 'w-full rounded-lg border border-gray-300 px-4 py-3 text-base text-slate-900 placeholder:text-gray-400 outline-none transition-colors duration-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20',
                 ],
             ])
 
@@ -27,7 +27,7 @@ class LeadType extends AbstractType
                 'label' => false,
                 'attr' => [
                     'placeholder' => 'Prénom',
-                    'class' => 'w-full rounded-lg border-gray-300',
+                    'class' => 'w-full rounded-lg border border-gray-300 px-4 py-3 text-base text-slate-900 placeholder:text-gray-400 outline-none transition-colors duration-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20',
                 ],
             ])
 
@@ -35,7 +35,7 @@ class LeadType extends AbstractType
                 'label' => false,
                 'attr' => [
                     'placeholder' => 'Email',
-                    'class' => 'w-full rounded-lg border-gray-300',
+                    'class' => 'w-full rounded-lg border border-gray-300 px-4 py-3 text-base text-slate-900 placeholder:text-gray-400 outline-none transition-colors duration-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20',
                 ],
             ])
 
@@ -43,7 +43,7 @@ class LeadType extends AbstractType
                 'label' => false,
                 'attr' => [
                     'placeholder' => 'Téléphone',
-                    'class' => 'w-full rounded-lg border-gray-300',
+                    'class' => 'w-full rounded-lg border border-gray-300 px-4 py-3 text-base text-slate-900 placeholder:text-gray-400 outline-none transition-colors duration-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20',
                 ],
             ]);
     }

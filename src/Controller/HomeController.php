@@ -29,12 +29,18 @@ class HomeController extends AbstractController
 
             $this->addFlash('success', 'Votre demande a bien été envoyée.');
 
-            return $this->redirectToRoute('app_home');
+            return $this->redirectToRoute('app_lead_confirmation');
         }
 
         return $this->render('home/index.html.twig', [
             'form' => $form->createView(),
         ]);
+    }
+
+    #[Route('/merci', name: 'app_lead_confirmation')]
+    public function confirmation(): Response
+    {
+        return $this->render('lead/confirmation.html.twig');
     }
 
 

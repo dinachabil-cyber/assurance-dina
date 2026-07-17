@@ -9,6 +9,8 @@
  * - "entrypoint" (JavaScript only) set to true for any module that will
  *     be used as an "entrypoint" (and passed to the importmap() Twig function).
  *
+ * - CSS entrypoints should be listed with "type" set to "css".
+ *
  * The "importmap:require" command can be used to add new entries to this file.
  *
  * @return array<string, array{    // Import name as key, description of the imported file as value

@@ -50,24 +50,26 @@
                     Demander un devis
                 </h2>
 
-               {{ form_start(form) }}
+                {{ form_start(form) }}
 
-{{ form_row(form.name) }}
+                <div class="space-y-4">
+                    {{ form_row(form.name) }}
 
-{{ form_row(form.prenom) }}
+                    {{ form_row(form.prenom) }}
 
-{{ form_row(form.email) }}
+                    {{ form_row(form.email) }}
 
-{{ form_row(form.telephone) }}
+                    {{ form_row(form.telephone) }}
+                </div>
 
-<button
-    type="submit"
-    class="w-full rounded-lg bg-blue-600 py-3 text-white font-semibold hover:bg-blue-700"
->
-    Obtenir mon devis
-</button>
+                <button
+                    type="submit"
+                    class="mt-6 w-full rounded-lg bg-blue-600 py-3 text-white font-semibold hover:bg-blue-700 transition-colors duration-200"
+                >
+                    Obtenir mon devis
+                </button>
 
-{{ form_end(form) }}
+                {{ form_end(form) }}
 
             </div>
 

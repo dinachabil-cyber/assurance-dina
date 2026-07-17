@@ -1,0 +1,76 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mentions légales{% endblock %}
+
+{% block body %}
+
+<section class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <h1 class="text-4xl font-extrabold text-slate-900 mb-10">
+            Mentions légales
+        </h1>
+
+        <div class="space-y-10 text-slate-700 leading-relaxed">
+
+            <div>
+                <h2 class="text-2xl font-bold text-slate-900 mb-4">1. Identification de l'éditeur</h2>
+                <p>
+                    Le site internet Aksam Assurances est édité par :
+                </p>
+                <p class="mt-2">
+                    <strong>Aksam Assurances</strong><br>
+                    Courtier en assurances<br>
+                    Email : contact@aksam-assurances.fr<br>
+                    Téléphone : 01 23 45 67 89
+                </p>
+            </div>
+
+            <div>
+                <h2 class="text-2xl font-bold text-slate-900 mb-4">2. Directeur de la publication</h2>
+                <p>
+                    Le directeur de la publication est le représentant légal de la société Aksam Assurances.
+                </p>
+            </div>
+
+            <div>
+                <h2 class="text-2xl font-bold text-slate-900 mb-4">3. Hébergement</h2>
+                <p>
+                    Le site est hébergé par :<br>
+                    <strong>OVH SAS</strong><br>
+                    2 rue Kellermann<br>
+                    59100 Roubaix, France
+                </p>
+            </div>
+
+            <div>
+                <h2 class="text-2xl font-bold text-slate-900 mb-4">4. Propriété intellectuelle</h2>
+                <p>
+                    L'ensemble du contenu du site (textes, images, logos, etc.) est la propriété
+                    exclusive de Aksam Assurances, sauf mention contraire. Toute reproduction,
+                    distribution ou utilisation sans autorisation préalable est interdite.
+                </p>
+            </div>
+
+            <div>
+                <h2 class="text-2xl font-bold text-slate-900 mb-4">5. Données personnelles</h2>
+                <p>
+                    Les informations collectées via le formulaire sont traitées conformément à notre
+                    <a href="{{ path('app_privacy') }}" class="text-blue-600 underline">politique de confidentialité</a>.
+                </p>
+            </div>
+
+            <div>
+                <h2 class="text-2xl font-bold text-slate-900 mb-4">6. Droit applicable</h2>
+                <p>
+                    Le présent site est soumis au droit français. En cas de litige, les tribunaux français
+                    seront seuls compétents.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}

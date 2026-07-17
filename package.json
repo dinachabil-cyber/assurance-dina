@@ -1,0 +1,13 @@
+{
+  "name": "assurance-dina",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./assets/styles/app.css -o ./public/build/styles/app.css --minify",
+    "watch:css": "tailwindcss -i ./assets/styles/app.css -o ./public/build/styles/app.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.8",
+    "lightningcss": "^1.32.0",
+    "tailwindcss": "^4.1.8"
+  }
+}
